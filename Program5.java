@@ -53,7 +53,7 @@ public class Program5 {
 
                 num = n * i;
                 i++;
-                
+
                 continue;
             }
 
@@ -78,8 +78,10 @@ public class Program5 {
         
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Enter m");
         int m = sc.nextInt();
 
+        System.out.println("Enter n");
         int n = sc.nextInt();
 
         System.out.println(differenceOfSum(n, m));
