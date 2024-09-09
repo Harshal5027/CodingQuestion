@@ -32,7 +32,7 @@ public class Program4 {
 
         for( int i = 0; i < length; i++ ){
 
-            System.out.println(Math.abs(num - arr[i]));
+            // System.out.println(Math.abs(num - arr[i]));
 
             if( Math.abs(num - arr[i]) <= diff ){
 
