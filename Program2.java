@@ -53,7 +53,7 @@ public class Program2 {
 
         for( int i = 1; i < str.length(); ){
 
-            System.out.println(res);
+            // System.out.println(res);
 
             char prev = str.charAt(i);
             i++;
