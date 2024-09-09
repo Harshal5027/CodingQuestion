@@ -44,6 +44,10 @@ public class Program6 {
 
     static int largesmallSum( int arr[], int n){
 
+        if( arr == null || n <= 3)
+            return -1;
+
+
         int evenSecondLargest = Integer.MIN_VALUE;
         int evenLargest = Integer.MIN_VALUE;
 
